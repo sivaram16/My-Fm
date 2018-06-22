@@ -115,7 +115,7 @@
                     android:gravity="center"
                     android:paddingEnd="10dp"
                     android:paddingRight="10dp"
-                    android:text="Sivaram"
+                    android:text="Sivaram and Sivaperumal"
                     android:textColor="@color/activity_maintext"
                     android:textSize="15sp" />
 
