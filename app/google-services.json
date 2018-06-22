@@ -1,0 +1,476 @@
+{
+  "project_info": {
+    "project_number": "728351311361",
+    "firebase_url": "https://myproject-ae719.firebaseio.com",
+    "project_id": "myproject-ae719",
+    "storage_bucket": "myproject-ae719.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:04fbd950f912f192",
+        "android_client_info": {
+          "package_name": "com.cleaner_whatsapp.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:e87d7baa2cd67520",
+        "android_client_info": {
+          "package_name": "com.example.admin.tamilfmpart1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:4797ac730c31c35b",
+        "android_client_info": {
+          "package_name": "com.mentor.android.fullstackdevelopment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:6a188ef3805e6510",
+        "android_client_info": {
+          "package_name": "com.mentor.ebookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:f455fab90af20b77",
+        "android_client_info": {
+          "package_name": "com.mentor.fullstackdevelopment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:25ac9639939189a1",
+        "android_client_info": {
+          "package_name": "com.mentor.games.supermario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:08e83fd758fe1b8f",
+        "android_client_info": {
+          "package_name": "com.mentor.phpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:729b1670e4fd0550",
+        "android_client_info": {
+          "package_name": "com.mentor.screenrecorder.capture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:4eb5b2869f6e3c50",
+        "android_client_info": {
+          "package_name": "com.mentor.sourcecodes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:7cc45389107a63ee",
+        "android_client_info": {
+          "package_name": "com.mentor.thaaimanvivasayam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:66fa8179cdae7691",
+        "android_client_info": {
+          "package_name": "com.phpdeveloper.android.sourcecode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:26861f972b0bd145",
+        "android_client_info": {
+          "package_name": "com.w3app.admin.tamilfmpart1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:6ddbd7ee09a8922a",
+        "android_client_info": {
+          "package_name": "com.w3app.covaiplacefinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:eae9bd19e89e4acd",
+        "android_client_info": {
+          "package_name": "com.w3apps.dataai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728351311361:android:bd0a3aeaf5f75114",
+        "android_client_info": {
+          "package_name": "mentor.love.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728351311361-0adf00vkujavi82o9k26hl7m0vohjqpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxc_bj6oHnvQpEIFSOeB98qAujrBBCOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

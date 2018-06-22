@@ -1,0 +1,2443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:background="@drawable/app_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TAMIL RADIOS"
+            android:paddingTop="10dp"
+            android:background="@drawable/app_bg"
+            android:paddingBottom="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_1">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiocity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView1"
+                android:text="Radio City"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="#fff"
+                android:text="Radio City is India's first private FM radio station and was started on 3 July 2001."
+                android:layout_toRightOf="@id/imageView1"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_2">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiogilli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView2"
+                android:text="Radio Gilli"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imageView2"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="30dp"
+                android:text="Radio Gilli 106.5 FM radio is a tamil radio broadcasting from UAE."
+                android:textSize="12dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_3">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/tamiloli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:text="Tamil Oli"
+                android:textSize="20dp"
+                android:textColor="#ff20"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Tamil Oli fm is a regional based Indian fm radio station."
+                android:layout_toRightOf="@id/imageView3"
+                android:paddingTop="30dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_4">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/sakthi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView4"
+                android:text="Sakthi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Shakthi FM broadcasting Tamil language News, Talk and Entertainment. Shakthi FM live broadcasting from Sri Lanka."
+                android:layout_toRightOf="@id/imageView4"
+                android:paddingTop="30dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_5">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiomirchi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView5"
+                android:text="Radio Mirchi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Radio Mirchi is a Tamil Fm radio having broadcasting from chennai and coimbatore at 98.3MHZ.Listen to radio Mirchi to listen to your favorite tamil songs and top kollywood songs."
+                android:layout_toRightOf="@id/imageView5"
+                android:paddingTop="30dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_6">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/sooriyanfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView6"
+                android:text="Sooriyan FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Sooriyan FM is a privately owned Tamil radio station in Sri Lanka run by ABC Radio Networks started in 1998."
+                android:layout_toRightOf="@id/imageView6"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_7">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/bigfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView7"
+                android:text="Big FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" BIG FM is a nationwide private FM radio station in India owned by Indian businessman Anil Ambani."
+                android:layout_toRightOf="@id/imageView7"
+                android:paddingTop="30dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_8">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/hellofm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView8"
+                android:text="Hello FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Hello FM is one of the private radio stations operating from different locations in Tamil Nadu. "
+                android:layout_toRightOf="@id/imageView8"
+                android:paddingTop="30dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_9">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/kodaikanalfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView9"
+                android:text="Kodaikanal FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Kodaikanal FM radio is a tamil radio broadcasting from Kodaikanal."
+                android:layout_toRightOf="@id/imageView9"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_10">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiocitychennai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView10"
+                android:text="Radio City Chennai"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Radio City is part of Planet Radio City mega music portal."
+                android:layout_toRightOf="@id/imageView10"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_11">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/tamilhdradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView11"
+                android:text="Tamil HD Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="CMR FM radio is a tamil HD radio broadcasting from Canada."
+                android:layout_toRightOf="@id/imageView11"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_12">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/suriyanfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView12"
+                android:text="Suriyan FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Suryan FM is Tamil Nadu's No. 1 radio station. "
+                android:layout_toRightOf="@id/imageView12"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_13">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/feverfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView13"
+                android:text="Fever FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="Fever FM (by HT Media Ltd.) is an FM radio station in India. It is currently available in 13 cities in India."
+                android:layout_toRightOf="@id/imageView13"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_14">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/fmgold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView14"
+                android:text="FM Gold"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" FM Gold is a FM radio channel in Mumbai, Delhi, Kolkata and Chennai, India."
+                android:layout_toRightOf="@id/imageView14"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_15">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radioone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView15"
+                android:text="Radio One"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text="  Radio One is a commercial radio network in India."
+                android:layout_toRightOf="@id/imageView15"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_16">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/vividhbharathi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView16"
+                android:text="Vividh Bharathi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" The Vividh Bharati Service of All India Radio was conceptualized to combat Radio Ceylon in 1957."
+                android:layout_toRightOf="@id/imageView16"
+                android:textColor="#fff"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_17">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/tamilfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView17"
+                android:text="Tamil FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Tamil fm is an Tamil Nadu FM Channel"
+                android:layout_toRightOf="@id/imageView17"
+                android:textColor="#fff"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_18">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="75dp"
+                android:layout_centerInParent="true"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/varnamfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView18"
+                android:text="Varnam FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Varnam FM is the Sri Lanka based radio station broadcasting Sri Lankan, Tamil and other form of music."
+                android:layout_toRightOf="@id/imageView18"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_19">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/fmrainbow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView19"
+                android:text="FM Rainbow"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" The FM Rainbow channel of All India Radio was launched at a time when radio listening was on the decline especially in big cities."
+                android:layout_toRightOf="@id/imageView19"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_20">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/allindiaradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView20"
+                android:text="All India Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" As India's National Broadcaster and also the premier Public Service Broadcaster, All India Radio (AIR) has been serving to inform, educate and entertain. "
+                android:layout_toRightOf="@id/imageView20"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_21">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/minnalfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView21"
+                android:text="Minnal FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Minnal Fm is one of the most popular online radio station on Malaysia. Minnal Fm broad cast 24hours Variety music from there own radio station."
+                android:layout_toRightOf="@id/imageView21"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_22">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/tamilsunfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView22"
+                android:text="Tamil Sun FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Tamil sun FM is a Tamil Fm radio having broadcasting from Tamilnadu."
+                android:layout_toRightOf="@id/imageView22"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_23">
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/Lankasrifm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView23"
+                android:text="Lankasri FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Lankasri FM is a new Tamil radio Station. Lankasri FM has been started to broadcast LIVE, but it also a part of Online based. "
+                android:layout_toRightOf="@id/imageView23"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_24">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/puradsifm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView24"
+                android:text=" Puradsi FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Puradsi Fm is like a novelty in the history of the Tamil radio industry, the radio of listeners choice has started the work to began the revolution. "
+                android:layout_toRightOf="@id/imageView24"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_25">
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/ustamilfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView25"
+                android:text=" US TAMIL FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" US Tamil FM is a 24/7 Tamil Radio Station solely created for the Tamilians across the United States. Listen to our shows for the best and latest Tamil Hits."
+                android:layout_toRightOf="@id/imageView25"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_26">
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/sahanafm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView26"
+                android:text=" Sahana FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Sahana FM is non profit online radio station to promote Tamil music and Tamil related news and information for Tamil community living in Australia."
+                android:layout_toRightOf="@id/imageView26"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_27">
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/vasanthamfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView27"
+                android:text=" Vasantham FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Vasantham FM, provides twenty four hour mix of several genres and styles of music. The station plays all the music you love while striving to keep up with."
+                android:layout_toRightOf="@id/imageView27"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_28">
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/eastfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView28"
+                android:text=" East FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" East FM - The station started 13 years ago and is Kenya's heritage station for all things Asian. The station's main audiences are Asian "
+                android:layout_toRightOf="@id/imageView28"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_29">
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/ruthramfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView29"
+                android:text=" Ruthram FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Ruthram fm telecast Ruthram fm radio music 24 hours a day non stop for you."
+                android:layout_toRightOf="@id/imageView29"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_30">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/abinayafm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView30"
+                android:text=" Abinaya FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Abinayam FM radio brodcasts 24 hours a days and you can listen to your favorite tamil songs."
+                android:layout_toRightOf="@id/imageView30"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_31">
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/mrchefm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView31"
+                android:text=" MRCHE FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" MRCHE FM is a Tamil Fm radio."
+                android:layout_toRightOf="@id/imageView31"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_32">
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/chellamfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView32"
+                android:text=" Chellam FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Chellam FM is a community based radio station. This radio is broadcasting for the community of Tamil."
+                android:layout_toRightOf="@id/imageView32"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_33">
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/paristamilfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView33"
+                android:text=" Paris Tamil FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Paris Tamil FM radio is a tamil radio broadcasting from France, Paris."
+                android:layout_toRightOf="@id/imageView33"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_34">
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/kathifm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView34"
+                android:text=" Kathir FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Kathir FM telecast Kathir FM radio music 24 hours a day non stop for you."
+                android:layout_toRightOf="@id/imageView34"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_35">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/mazhaifm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView35"
+                android:text=" Mazhai FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Mazhai fm radio is a tamil radio broadcasting from India.Tune to Mazhai fm tamil radio to listen to your favorite tamil songs and top kollywood songs."
+                android:layout_toRightOf="@id/imageView35"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_36">
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/chandrufm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView36"
+                android:text=" Chandru FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Chandru FM radio is a tamil radio broadcasting from Newyork.Tune to Chandru FM tamil radio to listen to your favorite tamil songs and top kollywood songs."
+                android:layout_toRightOf="@id/imageView36"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_37">
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/tamilheartchatfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView37"
+                android:text=" Tamil Heart Chat FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Tamil Heart Chat FM offers the listeners community who are fans of this radio with kinds of programs where music and other things merges in a very professi."
+                android:layout_toRightOf="@id/imageView37"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_38">
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/mukilfm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView38"
+                android:text=" Mukil FM"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Mukil FM is an online 24/7 Indian Tamil radio broadcasting from Tamilnadu with more than 20K listeners all over the world."
+                android:layout_toRightOf="@id/imageView38"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_39">
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/europetamilradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView39"
+                android:text=" Europe Tamil Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" ETR FM Tamil Radio Online . ETR stands for European Tamil Radio . You are Listening one of the popular Tamil online radio station online . ETR Radio broadcasting 24 hours various kind of latest variety kind of music genres."
+                android:layout_toRightOf="@id/imageView39"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_40">
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/etrmusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView40"
+                android:text=" ETR Music"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" ETR Music is a Tamil Online Radio Service."
+                android:layout_toRightOf="@id/imageView40"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="HINDI RADIOS"
+            android:paddingTop="10dp"
+            android:background="@drawable/app_bg"
+            android:paddingBottom="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_41">
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiocityhindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView41"
+                android:text=" Radio City Hindi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Featuring artists like Mohammad Rafi, Lata Mangeshkar, Kishore Kumar, Asha Bhosle, Mukesh Kumar, R.D. Burman, Manna Dey and more on Radio City Hindi."
+                android:layout_toRightOf="@id/imageView41"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_42">
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/meethimirchi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView42"
+                android:text=" Meethi Mirchi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" meethi mirchi. Radio Mirchi's free internet radio station plays a selection of modern Bollywood Melodies, that will ease your work day."
+                android:layout_toRightOf="@id/imageView42"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_43">
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="75dp"
+                android:layout_centerInParent="true"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/mirchitop20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView43"
+                android:text="Mirchi Top 20"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Mirchi Top 20 is THE best place for the latest Bollywood Music! Back to Back hit songs, one destination – Mirchi Top 20."
+                android:layout_toRightOf="@id/imageView43"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_44">
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/redfm93_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView44"
+                android:text="Red FM 93.5"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Red FM Delhi On-Air content is led by award winning RJ Raunac, that host popular humour segment like Bauaa, Sukumar, Band, and Delhi local news with a lot."
+                android:layout_toRightOf="@id/imageView44"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_45">
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/hitsofbollywood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView45"
+                android:text="Hits Of Bollywood"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Hits Of Bollywood welcome to all their true music loving listeners on this dedicated site from Gujarat. they plays Hindi songs, Gazalas, classical songs, K."
+                android:layout_toRightOf="@id/imageView45"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_46">
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/planetradiocityhindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView46"
+                android:text="Planet Radio City Hindi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Featuring artists like Mohammad Rafi, Lata Mangeshkar, Kishore Kumar, Asha Bhosle, Mukesh Kumar, R.D. Burman, Manna Dey and more on Radio City Hindi."
+                android:layout_toRightOf="@id/imageView46"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_47">
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/calmradiohindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView47"
+                android:text="Calm Radio Hindi"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Calm Radio Hindi is an online Hindi radio"
+                android:layout_toRightOf="@id/imageView47"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_48">
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/bbcradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView48"
+                android:text="BBC Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" BBC iPlayer Radio - listen to live BBC Radio or catch up on BBC programmes from across the UK and World Service."
+                android:layout_toRightOf="@id/imageView48"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_49">
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/bombaybeats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView49"
+                android:text="Bombay Beats"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="#fff"
+
+                android:text=" Bombay Beats streaming live the most popular Bollywood songs. Bombay Beats is the best Indian radio on the web. they broadcast live 24hours Bollywood "
+                android:layout_toRightOf="@id/imageView49"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_50">
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiotarana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView50"
+                android:text=""
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:paddingBottom="10dp"
+                android:text=" Radio Tarana, Auckland, New Zealand. 724K likes. Radio Tarana is New Zealand's leading Indian Broadcaster available NZ free to air."
+                android:layout_toRightOf="@id/imageView50"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Malayalam Radios"
+            android:paddingTop="10dp"
+            android:background="@drawable/app_bg"
+            android:paddingBottom="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_51">
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/psalmsradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView51"
+                android:text=" Psalms Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:textColor="#fff"
+
+                android:paddingBottom="10dp"
+                android:text=" PSALMSRADIO launched in 3rd March 2010 (03-03-2010), is a nonprofit Christian Radio, started with the vision of spreading the divine love to encourage."
+                android:layout_toRightOf="@id/imageView51"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_52">
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/nadamradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView52"
+                android:text=" Nadam Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:textColor="#fff"
+
+                android:paddingBottom="10dp"
+                android:text=" Nadam Radio, First malayalam hindu devotional radio."
+                android:layout_toRightOf="@id/imageView52"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_53">
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/ganamradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView53"
+                android:text="Ganam Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Ganam Radio is a 24 hours Malayalam Radio."
+                android:layout_toRightOf="@id/imageView53"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_54">
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/heavenlyradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView54"
+                android:text="Heavenly Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:paddingBottom="10dp"
+                android:text=" Heavenly Radio is one of the best malayalam radio."
+                android:layout_toRightOf="@id/imageView54"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_55">
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/keralaradios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView55"
+                android:text="Kerala Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Kerala Radio not only plays their original radio programs but also they have got programs outside of music."
+                android:layout_toRightOf="@id/imageView55"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_56">
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radioheartbeats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView56"
+                android:text="Radio Heart Beats"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Radio Heartbeats is an Online Radio 24/7 streams all North and South Indian music covered by our Android app."
+                android:layout_toRightOf="@id/imageView56"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_57">
+
+            <ImageView
+                android:id="@+id/imageView57"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/ragamradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView57"
+                android:text="Ragam Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Raagam is an Indian niche radio channel owned and operated by All India Radio. The channel was launched on the Republic Day on 26 January 2016."
+                android:layout_toRightOf="@id/imageView57"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_58">
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/luminousradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView58"
+                android:text="Luminous Radio"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Luminous Radio the catholic online radio is a lay initiative which was legally incorporated in 2011 by a group of young people who want to promote the different."
+                android:layout_toRightOf="@id/imageView58"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_59">
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/radiocitymalayalam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView59"
+                android:text="Radio City Malayalam"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Listen to Radio City Malayalam Gold from Thiruvananthapuram live on Radio Garden. Explore live radio by rotating the globe. "
+                android:layout_toRightOf="@id/imageView59"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_60">
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/marconimalayalam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView60"
+                android:text="Marconi Malayalam"
+                android:textSize="20dp"
+                android:textColor="#ff20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:paddingBottom="10dp"
+                android:text=" Marconi Malayalam FM Online Radio is the one of the best online radio in Malayalam."
+                android:layout_toRightOf="@id/imageView60"
+                android:paddingTop="30dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

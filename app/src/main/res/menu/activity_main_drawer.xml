@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_fm"
+            android:icon="@drawable/ic_tv"
+            android:title="@string/my_fm" />
+        <item
+            android:id="@+id/rate_app"
+            android:icon="@drawable/ic_rate"
+            android:title="@string/Rate_App" />
+        <item
+            android:id="@+id/more_app"
+            android:icon="@drawable/ic_more"
+            android:title="@string/More_App" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/Share_App" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_about"
+            android:title="@string/About_Us" />
+        <item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_privacy"
+            android:title="@string/Privacy_Policy" />
+    </group>
+</menu>

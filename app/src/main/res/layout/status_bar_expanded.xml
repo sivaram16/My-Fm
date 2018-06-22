@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notificationbg"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:background="@color/toolbar">
+
+    <ImageView
+        android:id="@+id/status_bar_album_art"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/status_bar_album_art"
+        android:layout_toRightOf="@+id/status_bar_album_art">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_statusBar_expanded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageButton
+                android:id="@id/status_bar_collapse"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_close" />
+
+            <TextView
+                android:id="@+id/status_bar_track_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="@color/text_statusBar" />
+
+            <ImageButton
+                android:id="@+id/status_bar_play"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_toLeftOf="@+id/status_bar_collapse"
+                android:layout_toStartOf="@+id/status_bar_collapse"
+                android:background="#00000000"
+                android:src="@drawable/ic_play_notification" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

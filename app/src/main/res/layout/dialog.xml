@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_dialogHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/dialogHading"
+            android:textColor="@color/dialog_text_color"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_dialogHeading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView_hh_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/hh"
+                    android:textColor="@color/dialog_text_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/hours_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_hh_dialog"
+                    app:np_dividerColor="@color/dialog_divider_color"
+                    app:np_formatter="%02d"
+                    app:np_height="180dp"
+                    app:np_max="11"
+                    app:np_min="0"
+                    app:np_selectedTextColor="@color/dialog_text_color"
+                    app:np_selectedTextSize="30dp"
+                    app:np_textColor="@color/colorPrimaryDark"
+                    app:np_textSize="30sp"
+                    app:np_value="0"
+                    app:np_width="60dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/relativelayout_hours"
+                android:layout_toRightOf="@+id/relativelayout_hours">
+
+                <TextView
+                    android:id="@+id/textView_mm_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/mm"
+                    android:textColor="@color/dialog_text_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/minute_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_mm_dialog"
+                    app:np_dividerColor="@color/dialog_divider_color"
+                    app:np_formatter="%02d"
+                    app:np_height="180dp"
+                    app:np_max="59"
+                    app:np_min="0"
+                    app:np_selectedTextColor="@color/dialog_text_color"
+                    app:np_selectedTextSize="30dp"
+                    app:np_textColor="@color/colorPrimaryDark"
+                    app:np_textSize="30sp"
+                    app:np_value="0"
+                    app:np_width="60dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_dialog"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/relativelayout_timer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_dialog_background"
+            android:text="OK"
+            android:textColor="@color/dialog_button_text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
